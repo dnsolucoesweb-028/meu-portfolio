@@ -8,7 +8,7 @@ function About() {
         <div className="about-content">
           <p>
             Olá! Sou Daniela, desenvolvedora de sites e criadora da
-            Daniela | Soluções Web.
+            DN | Soluções Web.
           </p>
 
           <p>

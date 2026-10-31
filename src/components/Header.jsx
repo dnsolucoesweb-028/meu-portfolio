@@ -2,7 +2,7 @@ function Header() {
   return (
     <header className="header">
       <div className="container">
-        <h2 className="logo">Daniela | Soluções Web</h2>
+        <h2 className="logo">DN | Soluções Web</h2>
 
         <nav>
           <ul className="menu">
