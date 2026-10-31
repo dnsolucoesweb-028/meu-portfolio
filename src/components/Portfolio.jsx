@@ -1,3 +1,4 @@
+
 import barbearia from "../assets/barbearia.png";
 import restaurante from "../assets/restaurante.png";
 import clinica from "../assets/clinica.png";
@@ -11,17 +12,28 @@ function Portfolio() {
 
         <div className="portfolio-cards">
 
-          <div className="card projeto">
-            <img src={barbearia} alt="Projeto de barbearia" />
+          <a
+            href="https://barbearia-premium-eight-xi.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="card projeto"
+            style={{
+              textDecoration: "none",
+              color: "inherit",
+              cursor: "pointer"
+            }}
+          >
+            <img src={barbearia} alt="Projeto Barbearia Premium" />
 
-            <h3>Barbearia Moderna</h3>
+            <h3>Barbearia Premium</h3>
 
             <p>
-              Site para barbearias apresentarem serviços,
-              horários e formas de contato.
+              Site moderno para barbearias, com apresentação
+              de serviços, galeria e informações de contato.
             </p>
-          </div>
 
+            <span>Visualizar projeto ↗</span>
+          </a>
 
           <div className="card projeto">
             <img src={restaurante} alt="Projeto de restaurante" />
@@ -33,7 +45,6 @@ function Portfolio() {
               localização e informações do negócio.
             </p>
           </div>
-
 
           <div className="card projeto">
             <img src={clinica} alt="Projeto de clínica" />
