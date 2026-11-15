@@ -13,7 +13,7 @@ function Portfolio() {
 
 
           <a
-            href="https://barbearia-premium-eight-xi.vercel.app/"
+            href="https://barbearia.dnsolucoesweb.com.br"
             target="_blank"
             rel="noopener noreferrer"
             className="card projeto"
@@ -41,7 +41,7 @@ function Portfolio() {
 
 
           <a
-            href="https://restaurante-palacio-gourmet.vercel.app/"
+            href="https://palaciogourmet.dnsolucoesweb.com.br"
             target="_blank"
             rel="noopener noreferrer"
             className="card projeto"
