@@ -1,19 +1,16 @@
-
 import barbearia from "../assets/barbearia.png";
 import restaurante from "../assets/restaurante.png";
-import clinica from "../assets/clinica.png";
 
 function Portfolio() {
   return (
     <section id="projetos" className="portfolio">
       <div className="container">
-
-        <h2>Portfólio</h2>
+        <h2>Projetos</h2>
 
         <div className="portfolio-cards">
 
           <a
-            href="https://barbearia-premium-eight-xi.vercel.app"
+            href="https://barbearia-premium-eight-xi.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="card projeto"
@@ -23,42 +20,44 @@ function Portfolio() {
               cursor: "pointer"
             }}
           >
-            <img src={barbearia} alt="Projeto Barbearia Premium" />
+            <img src={barbearia} alt="Barbearia Premium" />
 
             <h3>Barbearia Premium</h3>
 
             <p>
-              Site moderno para barbearias, com apresentação
-              de serviços, galeria e informações de contato.
+              Site institucional desenvolvido em React com design moderno,
+              menu responsivo, integração com WhatsApp e foco na experiência
+              do cliente.
             </p>
 
-            <span>Visualizar projeto ↗</span>
+            <span>🌐 Ver Projeto ↗</span>
           </a>
 
-          <div className="card projeto">
-            <img src={restaurante} alt="Projeto de restaurante" />
+          <a
+            href="https://restaurante-palacio-gourmet.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="card projeto"
+            style={{
+              textDecoration: "none",
+              color: "inherit",
+              cursor: "pointer"
+            }}
+          >
+            <img src={restaurante} alt="Palácio Gourmet" />
 
-            <h3>Restaurante</h3>
+            <h3>Palácio Gourmet</h3>
 
             <p>
-              Página para divulgar cardápio,
-              localização e informações do negócio.
+              Site para restaurante desenvolvido em React com layout elegante,
+              cardápio, galeria, animações, menu responsivo e integração com
+              WhatsApp.
             </p>
-          </div>
 
-          <div className="card projeto">
-            <img src={clinica} alt="Projeto de clínica" />
-
-            <h3>Clínica</h3>
-
-            <p>
-              Site profissional para apresentar serviços
-              e facilitar o contato dos pacientes.
-            </p>
-          </div>
+            <span>🌐 Ver Projeto ↗</span>
+          </a>
 
         </div>
-
       </div>
     </section>
   );
