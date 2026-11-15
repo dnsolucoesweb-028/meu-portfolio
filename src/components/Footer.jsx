@@ -1,12 +1,15 @@
 function Footer() {
   return (
     <footer className="footer">
+
       <div className="container">
 
-        <h3>DN Soluções Web</h3>
+        <h3>
+          DN | Soluções Web
+        </h3>
 
         <p>
-          Criação de sites modernos para pequenos negócios.
+          Sites modernos, rápidos e profissionais para pequenos negócios.
         </p>
 
         <p>
@@ -14,6 +17,7 @@ function Footer() {
         </p>
 
       </div>
+
     </footer>
   );
 }

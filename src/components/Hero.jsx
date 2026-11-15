@@ -4,11 +4,18 @@ function Hero() {
 
       <div className="hero-texto">
 
-        <h1>Sites modernos para pequenas empresas</h1>
+        <span className="hero-destaque">
+          DN | SOLUÇÕES WEB
+        </span>
+
+        <h1>
+            Sites profissionais que ajudam empresas a crescer
+        </h1>
 
         <p>
-          Transformo ideias em sites modernos, rápidos e profissionais para
-          ajudar pequenas empresas a conquistar mais clientes na internet.
+          Desenvolvemos sites modernos, rápidos e responsivos para pequenos
+          negócios fortalecerem sua presença digital e transmitirem mais
+          confiança aos seus clientes.
         </p>
 
         <div className="botoes">

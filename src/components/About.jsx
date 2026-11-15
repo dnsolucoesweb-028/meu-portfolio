@@ -3,25 +3,27 @@ function About() {
     <section id="sobre" className="about">
       <div className="container">
 
-        <h2>Sobre Mim</h2>
+        <h2>Sobre a DN Soluções Web</h2>
 
         <div className="about-content">
+
           <p>
-            Olá! Sou Daniela, desenvolvedora de sites e criadora da
-            DN | Soluções Web.
+            Olá! Sou Daniela, criadora da DN | Soluções Web,
+            especializada no desenvolvimento de sites modernos para pequenos negócios.
           </p>
 
           <p>
-            Trabalho na criação de sites modernos, organizados e responsivos
-            para pequenos negócios que desejam fortalecer sua presença na
-            internet.
+            Desenvolvo páginas profissionais, responsivas e organizadas,
+            pensadas para ajudar empresas a apresentarem seus serviços
+            com mais credibilidade na internet.
           </p>
 
           <p>
-            Meu objetivo é transformar ideias em páginas bonitas, funcionais
-            e fáceis de usar, ajudando empresas a apresentarem seus serviços
-            de forma profissional.
+            Meu objetivo é transformar ideias em sites funcionais,
+            bonitos e fáceis de navegar, criando experiências digitais
+            que aproximam empresas dos seus clientes.
           </p>
+
         </div>
 
       </div>
